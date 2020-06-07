@@ -1,0 +1,11 @@
+title Creating a new note on SPA
+note over browser:
+user fills in the text for the
+newe note in the form and press
+the save button and creates the
+note on the list
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+server-->browser: 201 created
+
